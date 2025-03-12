@@ -1,0 +1,23 @@
+
+# Ignore compiled class files
+*.class
+
+# Ignore Maven / Gradle directories
+/target/
+/build/
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore environment variables
+.env
+
+# Ignore log files
+*.log
+
+# Ignore node_modules in case frontend uses JavaScript dependencies
+node_modules/
+
+# Ignore JWT tokens and security files if any
+secrets/
